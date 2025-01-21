@@ -301,7 +301,6 @@ span{
     border-radius: 50%;
     width: 180px;
     height: 180px;
-    /* object-fit: cover; */
   }
   
   .details {
@@ -349,7 +348,7 @@ span{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    unicode-bidi: isolat
+    unicode-bidi: isolat 
     font-family: "Dongle";
     font-size: 15px;
     color: #555;
@@ -362,7 +361,7 @@ span{
     width: 100%;
     min-height: auto;
     margin-top: 30%;
-    /* border: 5px solid blue; */
+
     background-color: #161616;
   }
   #container2{
@@ -371,10 +370,8 @@ span{
     justify-content: space-evenly;
   }
   #about_us{
-    /* position: absolute; */
     width: 25%;
     height: 35%;
-    /* border: 1px solid rgb(223, 11, 11); */
   }
   #quick_links{
     display: flex;
@@ -383,7 +380,6 @@ span{
     width: 15%;
   }
   #contact-us{
-    /* border: 1px solid red; */
     width: 20%;
   }
   #hr1{
