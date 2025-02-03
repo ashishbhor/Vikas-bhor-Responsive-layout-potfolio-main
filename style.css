@@ -267,7 +267,7 @@ span{
   
   .container_3 {
     max-width: 1800px;
-    height: 75vh;
+    height: 80vh;
     background: #fff;
     border-radius: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -485,6 +485,96 @@ span{
     display: flex;
     justify-content: center;
   }
+
+@media screen and (max-width: 768px) {
+  .container_3 {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .profile {
+    margin-bottom: 40px;
+  }
+
+  .profile h2 {
+    position: static;
+    margin-right: 10%;
+    margin-bottom: 0%;
+  }
+
+  .profile img {
+    position: static;
+    width: 150px;
+    height: 150px;
+    border: 2px rgb(228, 218, 82) solid;
+  }
+
+  .details {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .info-cards {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info-card {
+    padding: 15px;
+  }
+
+  .info-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .info-card p {
+    font-size: 1rem;
+  }
+
+  .marks {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #container2 {
+    flex-direction: column;
+    padding: 20px;
+    font-size: 100%;
+  }
+
+  #about_us, 
+  #quick_links, 
+  #contact-us {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  #about_us {
+    margin-left: auto;
+  }
+
+  #quick_links {
+    align-items: center;
+  }
+
+  #quick_links p {
+    margin: 10px 0;
+  }
+
+  #contact-us {
+    text-align: center;
+  }
+
+  #copyright {
+    padding: 10px;
+    text-align: center;
+  }
+}
 
   /* Card animation */
   @keyframes show-data {
